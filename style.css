@@ -1,0 +1,206 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url(https://t4.ftcdn.net/jpg/04/61/47/03/360_F_461470323_6TMQSkCCs9XQoTtyer8VCsFypxwRiDGU.jpg);
+}
+
+nav {
+  height: 80px;
+}
+.box {
+  color: azure;
+  display: flex;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.box h1 {
+  font-size: 30px;
+  color: orangered;
+  display: flex;
+  font-weight: bolder;
+}
+
+.ullist {
+  display: flex;
+  margin-left: 140px;
+  list-style: none;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 60px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.searchbar {
+  margin-left: 400px;
+  padding-top: 10px;
+  display: flex;
+  width: fit-content;
+}
+
+input {
+  background-color: transparent;
+  border: 1px solid orangered;
+  color: #000;
+  height: 35px;
+  border-radius: 4px 0 0 4px;
+  border-right: none;
+  outline: none;
+  border-color: orangered;
+  padding-left: 10px;
+}
+
+#searchbutton {
+  background: orangered;
+  border: 1px solid orangered;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+  border-radius: 0 4px 4px 0;
+}
+
+.heading {
+  padding-top: 120px;
+  padding-left: 80px;
+}
+
+#firstheading {
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+}
+
+#secondheading {
+  font-size: 50px;
+  color: orangered;
+}
+
+#thirdheading {
+  font-size: 40px;
+  color: white;
+}
+
+.heading p {
+  color: white;
+  width: 600px;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+#button {
+  margin-top: 30px;
+  background-color: orangered;
+  height: 40px;
+  width: 110px;
+  border-radius: 5px;
+}
+
+.mainbox {
+  display: flex;
+  flex-direction: row;
+}
+
+.loginbox {
+  background-color: black;
+  height: 400px;
+  width: 19%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 400px;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+
+.login {
+  width: 80%;
+  height: 20%;
+}
+
+.login h2 {
+  background-color: rgb(255, 255, 255);
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  color: orangered;
+}
+
+.input1 input {
+  border: none;
+  color: white;
+  padding-right: 50px;
+}
+
+#line {
+  color: white;
+  width: 200px;
+}
+
+.input2 input {
+  border: none;
+  color: white;
+  padding-right: 50px;
+  padding-top: 15px;
+}
+
+#line {
+  color: white;
+  width: 200px;
+}
+
+#loginboxbutton {
+  margin-top: 30px;
+  background-color: orangered;
+  color: white;
+  padding: 12px 40px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 80%;
+
+}
+
+.loginboxpara{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginboxpara h3{
+    color: white;
+}
+
+.loginboxpara h4{
+    color: orangered;
+}
+
+.loginboxpara span{
+    color: white;
+}
+.loginboxpara h5{
+    color: white;
+    margin-top: 15px ;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    
+}
+.icons img{
+    padding-left: 10px ;
+    padding-right: 10px;
+}
